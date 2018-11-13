@@ -1,2 +1,2 @@
 # VGDC
-Viral Genome Deepl Classifier
+Viral Genome Deep Classifier
