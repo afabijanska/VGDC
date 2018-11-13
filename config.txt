@@ -1,0 +1,22 @@
+[data paths]
+fasta_file = hiv-db.fasta
+all_data_file = all.p
+train_data_file = train2.p
+test_data_file = test2.p
+predictions_data_file = predictions2.p
+classes_labels_data_file = classes.p
+
+[data division]
+fraction_training = 0.5
+threshold_occurences = 80
+
+[network params]
+filters_size = 9
+pool_strides = 2
+batch_size = 50
+num_epochs = 100
+validation_split = 0.1
+model_json_file = architecture.json
+model_vis_file = model.png
+best_weights = best_weights2.h5
+last_weights = last_weights2.h5
