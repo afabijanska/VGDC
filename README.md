@@ -1,10 +1,10 @@
 # Viral Genome Deep Classifier (VGDC)
 
-## Intro
+## INTRO
 
 This directory contains the source code of Viral Genome Deep Classifier (VGDC). The method was implemented in Python 3.6 with the use of Keras library.
 
-# Directory content related to VGCD
+## DIRECTORY CONTENT RELATED TO VGCD
 
 - parseGenomeDengue.py
   a parser of fasta files containing genomes of Dengue virus; takes a fasta file as input and saves list of pairs ('label','genome') in a pickle format; location of a fasta file and location of the output list are defined in a configuration file  
@@ -36,7 +36,7 @@ This directory contains the source code of Viral Genome Deep Classifier (VGDC). 
 - helpers.py 
   some helper functions
 
-# How to run VGCD
+## HOW TO RUN VGCD
 
 1. Edit a configuration file
 2. Run selected parser
@@ -44,7 +44,7 @@ This directory contains the source code of Viral Genome Deep Classifier (VGDC). 
 4. Run train_CNN.py
 5. Run predict_and_evaluate.py
 
-# HOW to run competitive methods
+## HOW TO RUN COMPETITIVE METHODS
 
 How to run C-Measure based classification.
 
