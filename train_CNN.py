@@ -12,6 +12,7 @@ import numpy as np
 from helpers import getStats, plotDict, genome2tabInt 
 
 #define CNN architecture
+
 def getNetwork(maxLen, numClasses, maskSize):                  
     
     inputs = Input(shape=(maxLen,1))
