@@ -3,7 +3,7 @@ fasta_file = hiv-db.fasta
 all_data_file = all.p
 train_data_file = train2.p
 test_data_file = test2.p
-predictions_data_file = predictions2.p
+predictions_data_file = predictions.p
 classes_labels_data_file = classes.p
 
 [data division]
@@ -18,5 +18,5 @@ num_epochs = 100
 validation_split = 0.1
 model_json_file = architecture.json
 model_vis_file = model.png
-best_weights = best_weights2.h5
-last_weights = last_weights2.h5
+best_weights = best_weights.h5
+last_weights = last_weights.h5
