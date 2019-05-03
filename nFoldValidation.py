@@ -6,6 +6,7 @@ import pickle
 import copy
 
 #the number of pieces
+
 N = 5
 
 #read config file to get path to the dataset
