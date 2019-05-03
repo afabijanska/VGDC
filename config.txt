@@ -1,8 +1,8 @@
 [data paths]
 fasta_file = hiv-db.fasta
 all_data_file = all.p
-train_data_file = train2.p
-test_data_file = test2.p
+train_data_file = train.p
+test_data_file = test.p
 predictions_data_file = predictions.p
 classes_labels_data_file = classes.p
 
