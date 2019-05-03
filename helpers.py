@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 #extract classess from a list of tuples class-genome
+
 def getClasses(li):
     classes = set()
     
@@ -12,6 +13,7 @@ def getClasses(li):
     return classes
 
 #get class occurence stats
+
 def getStats(li):
     classes = getClasses(li)
     diClasses = {}
@@ -40,6 +42,7 @@ def getStats(li):
     return diClasses
 
 #plot histogram of class occurences
+
 def plotDict(d, path):
     plt.bar(range(len(d)), d.values(), align='center')
     plt.xticks(range(len(d)), list(d.keys()))
@@ -48,6 +51,7 @@ def plotDict(d, path):
     plt.show()
     
 #convert letters to numbers
+
 def genome2tabInt(genome, maxLen):
     
     tabInt = np.zeros(maxLen)
@@ -59,6 +63,7 @@ def genome2tabInt(genome, maxLen):
     return tabInt
 
 #plot confusion matrix
+
 def plot_confusion_matrix(cm,
                           target_names,
                           title='Confusion matrix',
