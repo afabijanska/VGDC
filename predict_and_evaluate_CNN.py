@@ -7,6 +7,7 @@ from keras.models import model_from_json
 from helpers import genome2tabInt, plot_confusion_matrix 
 
 #read config file
+
 config = configparser.RawConfigParser()
 config.read('config.txt')
 TestDataFile = config.get('data paths', 'test_data_file')
