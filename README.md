@@ -1,6 +1,6 @@
 # Viral Genome Deep Classifier (VGDC)
 
-# Intro
+## Intro
 
 This directory contains the source code of Viral Genome Deep Classifier (VGDC). The method was implemented in Python 3.6 with the use of Keras library.
 
