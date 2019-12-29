@@ -106,6 +106,10 @@ python ppmCompressionClassifier.py > hiv-1_12classes.log
 4. After a couple of minutes, or hours in some cases, see the created log file 
 (check its last lines for a summary).
 
+# CONTACT
 
-
-
+<b>Anna Fabijańska</b> <br>
+Institute of Applied Computer Science <br>
+Lodz University of Technology <br>
+e-mail: anna.fabijanska@p.lodz.pl <br>
+WWW: http://an-fab.kis.p.lodz.pl
