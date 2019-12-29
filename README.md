@@ -7,8 +7,7 @@ This directory contains the source code of Viral Genome Deep Classifier (VGDC) -
 The source code may be used for non-commercial research provided you acknowledge the source by citing the following paper:</p>
 
 <ul>
-<li><b>Fabijańska A.</b>, Grabowski S.: <i>Viral Genome Deep Classifier</i>, IEEE Access, vol. 7, pp. 81297-81307, 2019, doi:10.1109/ACCESS.2019.2923687 
-<li>
+  <li><b>Fabijańska A.</b>, <b>Grabowski S.</b>: <i>Viral Genome Deep Classifier</i>, IEEE Access, vol. 7, pp. 81297-81307, 2019, doi:10.1109/ACCESS.2019.2923687 
 </ul>
   
 <pre><code>@article{Fabijanska2019,<br>
