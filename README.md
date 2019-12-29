@@ -2,7 +2,29 @@
 
 ## INTRO
 
-This directory contains the source code of Viral Genome Deep Classifier (VGDC). The method was implemented in Python 3.6 with the use of Keras library.
+This directory contains the source code of Viral Genome Deep Classifier (VGDC). The source code may be used for non-commercial research provided you acknowledge the source by citing the following paper:</p>
+
+<ul>
+<li><b>Fabijańska A.</b>, Grabowski S.: <i>Viral Genome Deep Classifier</i>, IEEE Access, vol. 7, pp. 81297-81307, 2019, doi:10.1109/ACCESS.2019.2923687 
+<li>
+  
+<pre><code>@article{Fabijanska2019,<br>
+  author  = {Anna Fabija\'{n}ska and Szymon Grabowski}, <br>
+  title   = {Viral Genome Deep Classifier},<br>
+  journal = {IEEE Access},<br>
+  volume  = {7},<br>
+  number  = {},<br>
+  pages   = {81297-81307},<br>
+  year 	  = {2019},<br>
+  note 	  = {},</br>
+  issn 	  = {2169-3536},<br>
+  doi 	  = {10.1109/ACCESS.2019.2923687}, <br>
+  url 	  = {https://doi.org/10.1109/ACCESS.2019.2923687}<br>
+}</code></pre>
+
+## PREREQUISITES
+
+The method was implemented in Python 3.6 with the use of Keras library running at the top of TensorFlow
 
 ## DIRECTORY CONTENT RELATED TO VGCD
 
